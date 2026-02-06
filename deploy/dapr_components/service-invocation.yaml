@@ -1,0 +1,11 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: service-invocation
+  namespace: todo-chatbot
+spec:
+  type: middleware.http.uppercase
+  version: v1
+  metadata:
+  - name: "enabled"
+    value: "true"

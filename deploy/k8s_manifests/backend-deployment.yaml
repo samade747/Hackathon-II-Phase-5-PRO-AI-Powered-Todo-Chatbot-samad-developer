@@ -1,0 +1,75 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: todo-chatbot-backend
+  namespace: todo-chatbot
+  labels:
+    app: todo-chatbot-backend
+  annotations:
+    dapr.io/enabled: "true"
+    dapr.io/app-id: "todo-backend"
+    dapr.io/app-port: "8000"
+    dapr.io/config: "backend-dapr-config"
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: todo-chatbot-backend
+  template:
+    metadata:
+      labels:
+        app: todo-chatbot-backend
+    spec:
+      containers:
+      - name: backend
+        image: todo-chatbot-backend:latest
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 8000
+          name: http
+        env:
+        - name: SUPABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: supabase-url
+        - name: SUPABASE_KEY
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: supabase-key
+        - name: JWT_SECRET_KEY
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: jwt-secret-key
+        - name: OPENAI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: openai-api-key
+        - name: OPENROUTER_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: openrouter-api-key
+        - name: GROQ_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: groq-api-key
+        - name: GEMINI_API_KEY
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: gemini-api-key
+        - name: BETTER_AUTH_SECRET
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: better-auth-secret
+        - name: DATABASE_URL
+          valueFrom:
+            secretKeyRef:
+              name: todo-chatbot-secrets
+              key: database-url

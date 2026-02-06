@@ -1,0 +1,14 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: postgresql-state
+  namespace: todo-chatbot
+spec:
+  type: state.postgresql
+  version: v1
+  metadata:
+  - name: connectionString
+    valueFrom:
+      secretKeyRef:
+        name: todo-chatbot-secrets
+        key: database-url

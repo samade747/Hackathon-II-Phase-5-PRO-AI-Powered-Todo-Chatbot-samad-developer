@@ -1,0 +1,217 @@
+# Default values for todo-chatbot
+# This is a YAML-formatted file.
+# Declare variables to be passed into your templates.
+
+global:
+  namespace: todo-chatbot
+
+# Frontend configuration
+frontend:
+  replicaCount: 1
+  image:
+    repository: todo-frontend       # local image
+    tag: latest
+    pullPolicy: Never               # use local image only
+  service:
+    type: ClusterIP
+    port: 80
+  ingress:
+    enabled: true
+    className: nginx
+    annotations:
+      nginx.ingress.kubernetes.io/rewrite-target: /
+      nginx.ingress.kubernetes.io/ssl-redirect: "false"
+    hosts:
+      - host: todo-chatbot.local
+        paths:
+          - path: /
+            pathType: Prefix
+    tls: []
+  resources:
+    limits:
+      cpu: 200m
+      memory: 256Mi
+    requests:
+      cpu: 100m
+      memory: 128Mi
+  autoscaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 5
+    targetCPUUtilizationPercentage: 70
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+
+# Backend configuration
+backend:
+  replicaCount: 1
+  image:
+    repository: todo-backend        # local image
+    tag: latest
+    pullPolicy: Never               # use local image only
+  service:
+    type: ClusterIP
+    port: 80
+  resources:
+    limits:
+      cpu: 500m
+      memory: 512Mi
+    requests:
+      cpu: 250m
+      memory: 256Mi
+  autoscaling:
+    enabled: true
+    minReplicas: 1
+    maxReplicas: 10
+    targetCPUUtilizationPercentage: 70
+  nodeSelector: {}
+  tolerations: []
+  affinity: {}
+
+# Environment configuration
+env:
+  nextPublicApiUrl: "http://todo-chatbot-backend-service:80"
+  nextPublicBetterAuthUrl: "http://todo-chatbot-backend-service:80"
+
+# External service configuration
+external:
+  supabase:
+    url: ""
+    key: ""
+    anonKey: ""
+  auth:
+    jwtSecretKey: ""
+    betterAuthSecret: ""
+  ai:
+    openaiApiKey: ""
+    openrouterApiKey: ""
+    groqApiKey: ""
+    geminiApiKey: ""
+  database:
+    url: ""
+
+# Ingress configuration
+ingress:
+  className: nginx
+  annotations:
+    nginx.ingress.kubernetes.io/rewrite-target: /
+    nginx.ingress.kubernetes.io/ssl-redirect: "false"
+  hosts:
+    - host: todo-chatbot.local
+      paths:
+        - path: /
+          pathType: Prefix
+        - path: /api
+          pathType: Prefix
+        - path: /health
+          pathType: Prefix
+
+# # Default values for todo-chatbot
+# # This is a YAML-formatted file.
+# # Declare variables to be passed into your templates.
+
+# global:
+#   namespace: todo-chatbot
+
+# # Frontend configuration
+# frontend:
+#   replicaCount: 1
+#   image:
+#     repository: todo-chatbot-frontend
+#     tag: latest
+#     pullPolicy: IfNotPresent
+#   service:
+#     type: ClusterIP
+#     port: 80
+#   ingress:
+#     enabled: true
+#     className: nginx
+#     annotations:
+#       nginx.ingress.kubernetes.io/rewrite-target: /
+#       nginx.ingress.kubernetes.io/ssl-redirect: "false"
+#     hosts:
+#       - host: todo-chatbot.local
+#         paths:
+#           - path: /
+#             pathType: Prefix
+#     tls: []
+#   resources:
+#     limits:
+#       cpu: 200m
+#       memory: 256Mi
+#     requests:
+#       cpu: 100m
+#       memory: 128Mi
+#   autoscaling:
+#     enabled: true
+#     minReplicas: 1
+#     maxReplicas: 5
+#     targetCPUUtilizationPercentage: 70
+#   nodeSelector: {}
+#   tolerations: []
+#   affinity: {}
+
+# # Backend configuration
+# backend:
+#   replicaCount: 1
+#   image:
+#     repository: todo-chatbot-backend
+#     tag: latest
+#     pullPolicy: IfNotPresent
+#   service:
+#     type: ClusterIP
+#     port: 80
+#   resources:
+#     limits:
+#       cpu: 500m
+#       memory: 512Mi
+#     requests:
+#       cpu: 250m
+#       memory: 256Mi
+#   autoscaling:
+#     enabled: true
+#     minReplicas: 1
+#     maxReplicas: 10
+#     targetCPUUtilizationPercentage: 70
+#   nodeSelector: {}
+#   tolerations: []
+#   affinity: {}
+
+# # Environment configuration
+# env:
+#   nextPublicApiUrl: "http://todo-chatbot-backend-service:80"
+#   nextPublicBetterAuthUrl: "http://todo-chatbot-backend-service:80"
+
+# # External service configuration
+# external:
+#   supabase:
+#     url: ""
+#     key: ""
+#     anonKey: ""
+#   auth:
+#     jwtSecretKey: ""
+#     betterAuthSecret: ""
+#   ai:
+#     openaiApiKey: ""
+#     openrouterApiKey: ""
+#     groqApiKey: ""
+#     geminiApiKey: ""
+#   database:
+#     url: ""
+
+# # Ingress configuration
+# ingress:
+#   className: nginx
+#   annotations:
+#     nginx.ingress.kubernetes.io/rewrite-target: /
+#     nginx.ingress.kubernetes.io/ssl-redirect: "false"
+#   hosts:
+#     - host: todo-chatbot.local
+#       paths:
+#         - path: /
+#           pathType: Prefix
+#         - path: /api
+#           pathType: Prefix
+#         - path: /health
+#           pathType: Prefix

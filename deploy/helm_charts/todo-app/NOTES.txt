@@ -1,0 +1,36 @@
+Thank you for installing {{ .Chart.Name }}.
+
+Your release is named {{ .Release.Name }} and is installed in the namespace {{ .Values.global.namespace }}.
+
+To check the status of your deployment, run:
+
+  kubectl get pods -n {{ .Values.global.namespace }}
+  kubectl get services -n {{ .Values.global.namespace }}
+  kubectl get ingress -n {{ .Values.global.namespace }}
+
+To access your application:
+
+{{- if .Values.ingress.enabled }}
+  {{- range $host := .Values.ingress.hosts }}
+    {{- range .paths }}
+  - http{{ if $.Values.ingress.tls }}s{{ end }}://{{ $host.host }}{{ .path }}
+    {{- end }}
+  {{- end }}
+{{- else }}
+  You have not enabled ingress. To access your application, you can port-forward the service:
+
+  kubectl port-forward -n {{ .Values.global.namespace }} svc/{{ include "todo-chatbot.fullname" . }}-frontend-service 3000:{{ .Values.frontend.service.port }}
+  kubectl port-forward -n {{ .Values.global.namespace }} svc/{{ include "todo-chatbot.fullname" . }}-backend-service 8000:{{ .Values.backend.service.port }}
+{{- end }}
+
+To upgrade your release:
+
+  helm upgrade {{ .Release.Name }} . --namespace {{ .Values.global.namespace }}
+
+To uninstall your release:
+
+  helm uninstall {{ .Release.Name }} --namespace {{ .Values.global.namespace }}
+
+IMPORTANT: Make sure to provide all required secrets in your values file or via --set flags,
+otherwise the application will not function properly. The required secrets include API keys
+for Supabase, OpenAI, and other services used by the AI-Powered Todo Chatbot.

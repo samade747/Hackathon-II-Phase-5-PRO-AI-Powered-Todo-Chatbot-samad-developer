@@ -1,0 +1,35 @@
+# Strimzi Operator manifest (placeholder - usually downloaded from official strimzi releases)
+# In a real environment, you would use:
+# kubectl create namespace kafka
+# kubectl create -f 'https://strimzi.io/install/latest?namespace=kafka' -n kafka
+
+apiVersion: v1
+kind: Namespace
+metadata:
+  name: kafka
+---
+# Simplified operator placeholder for demonstration of the manifest location
+# The user guide expects this file to exist in deploy/k8s_manifests/
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: strimzi-cluster-operator
+  namespace: kafka
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      name: strimzi-cluster-operator
+  template:
+    metadata:
+      labels:
+        name: strimzi-cluster-operator
+    spec:
+      serviceAccountName: strimzi-cluster-operator
+      containers:
+      - name: strimzi-cluster-operator
+        image: quay.io/strimzi/operator:latest
+        imagePullPolicy: IfNotPresent
+        env:
+        - name: STRIMZI_NAMESPACE
+          value: "*"
