@@ -1,0 +1,13 @@
+fastapi
+uvicorn
+python-jose[cryptography]
+pydantic
+python-multipart
+httpx
+pyyaml
+pytest
+pytest-asyncio
+supabase
+python-dotenv
+mcp
+openai

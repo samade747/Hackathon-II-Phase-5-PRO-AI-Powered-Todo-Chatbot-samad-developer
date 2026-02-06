@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: todo-chatbot-config
+  namespace: todo-chatbot
+data:
+  next_public_api_url: "http://todo-chatbot-backend-service:80"
+  next_public_better_auth_url: "http://todo-chatbot-backend-service:80"

@@ -1,0 +1,26 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(netstat:*)",
+      "Bash(findstr:*)",
+      "Bash(python:*)",
+      "Bash(dir:*)",
+      "Bash(ls:*)",
+      "Bash(curl:*)",
+      "Bash(taskkill:*)",
+      "Bash(timeout /t 2 /nobreak)",
+      "Bash(uvicorn:*)",
+      "Bash(timeout /t 3 /nobreak)",
+      "Bash(timeout /t 5 /nobreak)",
+      "Bash(ping:*)",
+      "Bash(cmd //c \"taskkill /F /PID 29568 & taskkill /F /PID 18944 & taskkill /F /PID 21408 & taskkill /F /PID 16452 & taskkill /F /PID 1700\")",
+      "Bash(cmd //c \"taskkill /F /IM python.exe /T 2>&1\")",
+      "Bash(psql:*)",
+      "Bash(docker build -t todo-chatbot-backend . --no-cache)",
+      "Bash(docker --version)",
+      "Bash(kubectl version --client)",
+      "Bash(helm version)",
+      "Bash(minikube version)"
+    ]
+  }
+}

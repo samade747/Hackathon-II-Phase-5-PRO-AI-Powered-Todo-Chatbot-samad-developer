@@ -1,0 +1,62 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache
+.coverage
+.coverage.*
+.pyup.yml
+.isort_cache
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Development files
+.git
+.gitignore
+README.md
+Dockerfile
+.dockerignore
+
+# Environment variables
+.env
+.env.local
+.env.dev
+.env.test
+
+# IDE
+.vscode
+.idea
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.cov-report
+
+# Dependencies
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+
+# Distribution
+*.tar.gz
+*.whl
+dist/
+build/
+*.egg-info/

@@ -1,0 +1,536 @@
+{
+  "history": [
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T18:16:12.124839"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Hey",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T18:16:51.818775"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Here's a task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T18:16:52.197529"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add a task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T18:17:22.576540"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:04:06.790280"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Or",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:09.103573"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Deploy",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:09.422921"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Or dep",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:09.782264"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Or deploy",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:10.151991"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "The",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:10.453596"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Dep",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:10.952127"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Deploy a website",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:11.253956"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Deploy a",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:11.595134"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Deploy a website",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:11.982336"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Deploy a website",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:12.280045"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "enter",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:12.602024"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Deploy a website",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:13.040144"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "enter",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:05:13.357967"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "Add a high priority task to investigate my new specialized AI system",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:06:19.660706"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:13:43.318019"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:15:51.521027"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task deploy website today at 10pm",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:16:33.158956"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:23:25.451674"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:28:21.850843"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:29:42.075609"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add a task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T19:32:00.090667"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T21:03:18.845588"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T23:21:34.471551"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T23:29:25.357993"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T23:37:36.253801"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-23T23:53:12.151354"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "our mission is to add task ad set ready ads running check results",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T08:30:25.369649"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "yes",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T08:30:35.068335"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T08:47:13.697335"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T08:48:00.815646"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T08:51:19.075280"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T10:08:03.463056"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T11:05:33.629777"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T14:20:38.210065"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T14:48:03.956829"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add buy groceries",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T14:48:28.025269"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add buy groceries",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T14:49:55.684455"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:09:25.629803"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:20:15.701519"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:27:56.097154"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:28:05.552112"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:31:02.717623"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:31:23.249218"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T15:33:32.313488"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T18:12:35.512305"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task buy oil",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T18:36:15.099405"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T20:56:50.514122"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "yes",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T20:57:03.636515"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "AI Agentixz USA add task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T20:57:15.593484"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-24T23:50:22.085938"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task buy milk",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-25T00:57:13.795442"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-25T05:33:18.137407"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-25T10:05:59.962458"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-25T10:28:19.977772"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA? \ud83e\udde0",
+      "timestamp": "2025-12-25T14:14:53.029552"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "greeting",
+      "agent_response": "Greetings, Commander! Ready to tackle your objectives. Here's your mission briefing.",
+      "timestamp": "2025-12-26T10:21:47.460990"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task update the ads",
+      "action": "create",
+      "agent_response": "Got it! I've added 'update the ads' to your list. Mission started!",
+      "timestamp": "2025-12-26T10:22:12.560251"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "todo app not showing the added task",
+      "action": "clarify",
+      "agent_response": "I'm not quite sure how to handle that objective. Could you rephrase it for AI Agentixz USA?",
+      "timestamp": "2025-12-26T10:23:00.971452"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi  add task buy milk",
+      "action": "greeting",
+      "agent_response": "Greetings, Commander! Ready to tackle your objectives. Here's your mission briefing.",
+      "timestamp": "2025-12-26T10:23:45.222719"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task buy milk",
+      "action": "create",
+      "agent_response": "Got it! I've added 'buy milk' to your list. Mission started!",
+      "timestamp": "2025-12-26T10:24:04.295055"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "greeting",
+      "agent_response": "Greetings, Commander! Ready to tackle your objectives. Here's your mission briefing.",
+      "timestamp": "2025-12-26T10:41:25.949911"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task update fb ads",
+      "action": "create",
+      "agent_response": "Got it! I've added 'update fb ads' to your list. Mission started!",
+      "timestamp": "2025-12-26T10:41:48.060479"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "greeting",
+      "agent_response": "Greetings, Commander! Ready to tackle your objectives. Here's your mission briefing.",
+      "timestamp": "2025-12-26T10:44:49.241628"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task check fb ads",
+      "action": "create",
+      "agent_response": "Got it! I've added 'check fb ads' to your list. Mission started!",
+      "timestamp": "2025-12-26T10:45:14.298507"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "greeting",
+      "agent_response": "Greetings, Commander! Ready to tackle your objectives. Here's your mission briefing.",
+      "timestamp": "2025-12-26T10:59:25.193394"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task update ads creatives",
+      "action": "create",
+      "agent_response": "Got it! I've added 'update ads creatives' to your list. Mission started!",
+      "timestamp": "2025-12-26T10:59:48.977448"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task buy milk",
+      "action": "create",
+      "agent_response": "Got it! I've added 'buy milk' to your list. Mission started!",
+      "timestamp": "2025-12-26T11:01:09.738601"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task fb ads update",
+      "action": "create",
+      "agent_response": "Got it! I've added 'fb ads update' to your list. Mission started!",
+      "timestamp": "2025-12-26T12:01:40.182179"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task ads update",
+      "action": "create",
+      "agent_response": "Got it! I've added 'ads update' to your list. Mission started!",
+      "timestamp": "2025-12-26T12:04:18.977312"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "hi",
+      "action": "greeting",
+      "agent_response": "Greetings, Commander! Ready to tackle your objectives. Here's your mission briefing.",
+      "timestamp": "2025-12-26T12:15:21.515823"
+    },
+    {
+      "user_id": "6f92e201-1858-4783-bc56-fbc95246b3c1",
+      "utterance": "add task working on ads creative",
+      "action": "create",
+      "agent_response": "Got it! I've added 'working on ads creative' to your list. Mission started!",
+      "timestamp": "2025-12-26T12:16:02.213940"
+    }
+  ]
+}
