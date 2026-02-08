@@ -1,4 +1,4 @@
-apiVersion: kafka.strimzi.io/v1
+apiVersion: kafka.strimzi.io/v1beta2
 kind: KafkaNodePool
 metadata:
   name: my-cluster-pool
@@ -6,9 +6,11 @@ metadata:
   labels:
     strimzi.io/cluster: my-cluster
 spec:
-  replicas: 1
+  replicas: 3
   roles:
     - controller
     - broker
   storage:
-    type: ephemeral
+    type: persistent-claim
+    size: 10Gi
+    deleteClaim: false
